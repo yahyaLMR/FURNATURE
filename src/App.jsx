@@ -351,29 +351,30 @@ function App() {
               <div className="w-48 h-48 rounded-full p-1 border-2 border-secondary mb-6 overflow-hidden">
                 <img src={member1} alt="Team Member 1" loading="lazy" className="w-full h-full rounded-full object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-primary font-serif">Sarah Johnson</h3>
-              <p className="text-sm text-secondary font-medium uppercase tracking-wide mt-1">Founder & CEO</p>
-              <p className="text-xs text-gray-500 mt-2">MBA, Sustainable Business</p>
+              <h3 className="text-xl font-bold text-primary font-serif">BAROUDI OUMAIMA</h3>
+              <p className="text-sm text-secondary font-medium uppercase tracking-wide mt-1">Master en Accompagnement Entrepreneurial</p>
+              <p className="text-xs text-gray-500 mt-2">Licence Professionnelle en Entrepreneuriat et management des TPMEs</p>
+              <p className="text-xs text-gray-500 mt-1">Diplôme en infographie</p>
             </div>
 
             {/* Team Member 2 */}
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full p-1 border-2 border-secondary mb-6 overflow-hidden">
-                <img src={member2} alt="Team Member 2" loading="lazy" className="w-full h-full rounded-full object-cover" />
+                <img src={member3} alt="Team Member 2" loading="lazy" className="w-full h-full rounded-full object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-primary font-serif">David Chen</h3>
-              <p className="text-sm text-secondary font-medium uppercase tracking-wide mt-1">Head of Design</p>
-              <p className="text-xs text-gray-500 mt-2">MFA, Industrial Design</p>
+              <h3 className="text-xl font-bold text-primary font-serif">MOUJAHID FARIDA</h3>
+              <p className="text-sm text-secondary font-medium uppercase tracking-wide mt-1">Master en Accompagnement Entrepreneurial</p>
+              <p className="text-xs text-gray-500 mt-2">Licence fondamentale en gestion des entreprises</p>
             </div>
 
             {/* Team Member 3 */}
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full p-1 border-2 border-secondary mb-6 overflow-hidden">
-                <img src={member3} alt="Team Member 3" loading="lazy" className="w-full h-full rounded-full object-cover" />
+                <img src={member2} alt="Team Member 3" loading="lazy" className="w-full h-full rounded-full object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-primary font-serif">Elena Rodriguez</h3>
-              <p className="text-sm text-secondary font-medium uppercase tracking-wide mt-1">Operations Manager</p>
-              <p className="text-xs text-gray-500 mt-2">BSc, Supply Chain Mgmt</p>
+              <h3 className="text-xl font-bold text-primary font-serif">IMANE EL HABIBI IHLANE</h3>
+              <p className="text-sm text-secondary font-medium uppercase tracking-wide mt-1">Master en Accompagnement Entrepreneurial</p>
+              <p className="text-xs text-gray-500 mt-2">Licence professionnelle en vente et relation clientèle</p>
             </div>
 
             {/* Team Member 4 */}
@@ -381,9 +382,9 @@ function App() {
               <div className="w-48 h-48 rounded-full p-1 border-2 border-secondary mb-6 overflow-hidden">
                 <img src={member4} alt="Team Member 4" loading="lazy" className="w-full h-full rounded-full object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-primary font-serif">Michael Smith</h3>
-              <p className="text-sm text-secondary font-medium uppercase tracking-wide mt-1">Marketing Lead</p>
-              <p className="text-xs text-gray-500 mt-2">BA, Communications</p>
+              <h3 className="text-xl font-bold text-primary font-serif">MUSTAFA KARIB</h3>
+              <p className="text-sm text-secondary font-medium uppercase tracking-wide mt-1">Master en Accompagnement Entrepreneurial</p>
+              <p className="text-xs text-gray-500 mt-2">Licence professionnelle en sciences économiques et gestion</p>
             </div>
           </div>
         </div>
