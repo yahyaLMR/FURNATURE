@@ -341,12 +341,12 @@ function App() {
         </div>
       </section>
 
-      {/* 6. Team Section */}
+      {/* 6. Team Section 
       <section id="team" className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-primary text-center mb-16 font-serif">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-            {/* Team Member 1 */}
+
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full p-1 border-2 border-secondary mb-6 overflow-hidden">
                 <img src={member1} alt="Team Member 1" loading="lazy" className="w-full h-full rounded-full object-cover" />
@@ -357,7 +357,6 @@ function App() {
               <p className="text-xs text-gray-500 mt-1">Diplôme en infographie</p>
             </div>
 
-            {/* Team Member 2 */}
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full p-1 border-2 border-secondary mb-6 overflow-hidden">
                 <img src={member3} alt="Team Member 2" loading="lazy" className="w-full h-full rounded-full object-cover" />
@@ -367,7 +366,6 @@ function App() {
               <p className="text-xs text-gray-500 mt-2">Licence fondamentale en gestion des entreprises</p>
             </div>
 
-            {/* Team Member 3 */}
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full p-1 border-2 border-secondary mb-6 overflow-hidden">
                 <img src={member2} alt="Team Member 3" loading="lazy" className="w-full h-full rounded-full object-cover" />
@@ -377,7 +375,6 @@ function App() {
               <p className="text-xs text-gray-500 mt-2">Licence professionnelle en vente et relation clientèle</p>
             </div>
 
-            {/* Team Member 4 */}
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full p-1 border-2 border-secondary mb-6 overflow-hidden">
                 <img src={member4} alt="Team Member 4" loading="lazy" className="w-full h-full rounded-full object-cover" />
@@ -389,6 +386,7 @@ function App() {
           </div>
         </div>
       </section>
+            */}
 
 
 
