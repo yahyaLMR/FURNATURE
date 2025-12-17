@@ -33,6 +33,8 @@ import SavingsIcon from '@mui/icons-material/Savings';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import CloseIcon from '@mui/icons-material/Close';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -58,7 +60,8 @@ function App() {
             <a href="#mission" className="text-text-main hover:text-primary font-medium transition-colors">Notre Mission</a>
             <a href="#solution" className="text-text-main hover:text-primary font-medium transition-colors">Solution</a>
             <a href="#products" className="text-text-main hover:text-primary font-medium transition-colors">Produits</a>
-            <a href="#team" className="text-text-main hover:text-primary font-medium transition-colors">Équipe</a>
+            {/* <a href="#team" className="text-text-main hover:text-primary font-medium transition-colors">Équipe</a> */}
+            <a href="#contact" className="text-text-main hover:text-primary font-medium transition-colors">Contact</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -74,7 +77,8 @@ function App() {
         <a href="#mission" onClick={toggleMobileMenu} className="text-2xl text-text-main hover:text-primary font-medium transition-colors">Notre Mission</a>
         <a href="#solution" onClick={toggleMobileMenu} className="text-2xl text-text-main hover:text-primary font-medium transition-colors">Solution</a>
         <a href="#products" onClick={toggleMobileMenu} className="text-2xl text-text-main hover:text-primary font-medium transition-colors">Produits</a>
-        <a href="#team" onClick={toggleMobileMenu} className="text-2xl text-text-main hover:text-primary font-medium transition-colors">Équipe</a>
+        {/* <a href="#team" onClick={toggleMobileMenu} className="text-2xl text-text-main hover:text-primary font-medium transition-colors">Équipe</a> */}
+        <a href="#contact" onClick={toggleMobileMenu} className="text-2xl text-text-main hover:text-primary font-medium transition-colors">Contact</a>
       </div>
 
       {/* 1. Hero Section */}
@@ -95,22 +99,22 @@ function App() {
         <div className="container mx-auto px-6 relative z-20 flex flex-col md:flex-row items-center justify-between h-full py-20">
           {/* Content (Left Aligned) */}
           <div className="text-white md:w-1/2 space-y-6 text-center md:text-left">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight font-serif">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight font-serif animate-fade-in-up">
               <span className="italic">FURNATURE</span>
             </h1>
-            <p className="text-xl md:text-2xl font-light opacity-90">
+            <p className="text-xl md:text-2xl font-light opacity-90 animate-fade-in-up delay-200">
               Votre espace, notre engagement
             </p>
-            <button className="mt-8 px-8 py-4 bg-accent text-primary font-bold rounded-full hover:bg-white transition-colors shadow-lg cursor-pointer">
+            <button className="mt-8 px-8 py-4 bg-accent text-primary font-bold rounded-full hover:bg-white hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg cursor-pointer animate-fade-in-up delay-400">
               Découvrir le projet
             </button>
           </div>
 
           {/* Visual (Right Aligned) */}
-          <div className="md:w-1/2 flex justify-center items-center relative mt-12 md:mt-0">
+          <div className="md:w-1/2 flex justify-center items-center relative mt-12 md:mt-0 animate-fade-in-up delay-600">
          
             {/* Circular logo container */}
-            <div className="relative w-64 h-64 md:w-150 md:h-150 bg-white/80 backdrop-blur-sm rounded-full border-2 border-white/30 flex items-center justify-center shadow-2xl">
+            <div className="relative w-64 h-64 md:w-150 md:h-150 bg-white/80 backdrop-blur-sm rounded-full border-2 border-white/30 flex items-center justify-center shadow-2xl animate-float">
               <img 
                 src={logo} 
                 alt="Logo" 
@@ -389,6 +393,38 @@ function App() {
             */}
 
 
+
+      {/* 7. Contact Section */}
+      <section id="contact" className="py-20 bg-bg-light">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-4xl font-bold text-primary mb-12 font-serif">Contactez-nous</h2>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-12">
+            
+            {/* Email */}
+            <div className="flex flex-col items-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow w-full md:w-1/3">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4 text-primary">
+                <EmailIcon sx={{ fontSize: '2.5rem' }} />
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-2">Email</h3>
+              <a href="mailto:yhayalmouri2000@gmail.com" className="text-text-main hover:text-primary transition-colors">
+                yhayalmouri2000@gmail.com
+              </a>
+            </div>
+
+            {/* Phone */}
+            <div className="flex flex-col items-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow w-full md:w-1/3">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4 text-primary">
+                <PhoneIcon sx={{ fontSize: '2.5rem' }} />
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-2">Téléphone</h3>
+              <a href="tel:+212696671859" className="text-text-main hover:text-primary transition-colors">
+                +212 696 671 859
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       {/* 9. Final Call-to-Action */}
       <section className="py-24 bg-bg-dark text-center">
