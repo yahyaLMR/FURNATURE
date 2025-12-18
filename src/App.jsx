@@ -406,12 +406,12 @@ function App() {
                 <EmailIcon sx={{ fontSize: '2.5rem' }} />
               </div>
               <h3 className="text-xl font-bold text-primary mb-2">Email</h3>
-              <a href="mailto:yhayalmouri2000@gmail.com" className="text-text-main hover:text-primary transition-colors">
-                yhayalmouri2000@gmail.com
+              <a href="mailto: admin@furnature.com" className="text-text-main hover:text-primary transition-colors">
+                 admin@furnature.com
               </a>
             </div>
 
-            {/* Phone */}
+            {/* Phone 
             <div className="flex flex-col items-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow w-full md:w-1/3">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4 text-primary">
                 <PhoneIcon sx={{ fontSize: '2.5rem' }} />
@@ -421,6 +421,7 @@ function App() {
                 +212 696 671 859
               </a>
             </div>
+                */}
 
           </div>
         </div>
